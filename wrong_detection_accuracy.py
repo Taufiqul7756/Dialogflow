@@ -2,8 +2,8 @@ import csv
 import requests
 
 # Set up your API endpoint and access token
-api_endpoint = "https://dialogflow.googleapis.com/v2/projects/test-bot-jacm/agent/sessions/kk:detectIntent"
-access_token = "ya29.a0AbVbY6MXUVe_7HQGL7hSXHUNnwsZLneTOHNvyDie8EmapiiVfPYH3FZmYGONr4GnFu7BwqlN5sTyXEdIPmOwmeQAVCSCu3SziyYmsq7FRxnxiD93zI1H-AF6L3EccZbjD-iDCNWb9EeOfsoufn_10Q50SDg4XQaCgYKAT8SARMSFQFWKvPlsRCSu1vGZnUj-GPn2dCAfQ0165"
+api_endpoint = "https://dialogflow.googleapis.com/v2/projects/project_id/agent/sessions/kk:detectIntent"
+access_token = ""
 
 # Read the CSV file
 with open("accuracy_check_all_update.csv", "r") as file:
