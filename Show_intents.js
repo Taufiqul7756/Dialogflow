@@ -1,9 +1,8 @@
 // Dialogflow API access token
 // require("dotenv").config(); // Load the environment variables
 
-const projectId = "test-bot-jacm";
-const accessToken =
-  "ya29.a0AbVbY6NND760HsqKIYSEpevnRKvE2XAEvSVPSpnMNCbsqvh9pCT6PGax9A8Aq5VLovSTlVJZjOPTBBN6K3QO5RB18aXl5ZaGfLW26Z4OwhR9eY0Z_zNlMeszp8xKo_5_1IGrhP8y858BIbUvo1lvwvVpcIw2EQaCgYKAQASARMSFQFWKvPleXCRl2szn_pwM4MUiabZEA0165";
+const projectId = "";
+const accessToken = "";
 // const projectId = process.env.PROJECT_ID;
 // const accessToken = process.env.ACCESS_TOKEN;
 // Function to detect intent and get response from Dialogflow
