@@ -16,7 +16,6 @@ with open("./data_6k_to_7k/6.8k_to_7k.csv", "r") as file:
         # Create the request body
         request_body = {"queryInput": {"text": {"languageCode": "en", "text": text}}}
 
-        # Set the request headers with the access token
         headers = {
             "Authorization": f"Bearer {access_token}",
             "Content-Type": "application/json",
